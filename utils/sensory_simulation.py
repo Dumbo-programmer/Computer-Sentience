@@ -11,4 +11,4 @@ class SensorySimulator:
         y, sr = librosa.load(file_path, sr=None)
         # Extract MFCC features
         mfccs = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)
-        return mfccs
+        return np.mean(mfccs, axis=1)  # Aggregate to a 1D array

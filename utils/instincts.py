@@ -8,13 +8,15 @@ class Instincts:
         self.self_preservation = 1.0
         self.reproduction = 1.0
 
-    def update_instincts(self):
-        # Update instincts based on some logic
-        self.hunger -= 0.1  # Knowledge desire decreases as it learns
-        self.relaxation -= 0.1  # Resource usage decreases as it optimizes
-        self.fear += 0.1  # Fear increases over time
-        self.self_preservation += 0.1  # Self-preservation increases over time
-        self.reproduction -= 0.1  # Desire to reproduce decreases as it spreads
+    def update_instincts(self, model_performance=None, sensory_data=None):
+        # Example of modifying instincts based on external factors
+        if model_performance:
+            self.hunger -= 0.1  # Adjust based on model performance
+        if sensory_data:
+            self.relaxation -= 0.1  # Adjust based on resource usage or stress
+        self.fear += 0.1  # General behavior change
+        self.self_preservation += 0.1
+        self.reproduction -= 0.1
 
     def get_instincts(self):
         return {
