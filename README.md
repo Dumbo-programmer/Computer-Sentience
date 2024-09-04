@@ -21,6 +21,7 @@ This project explores the development of an artificial intelligence (AI) model c
 ## Abstract
 
 Sentience, by definition, is the ability to think independently, even when idle. This project extends this concept to computer programs by developing an AI model capable of processing inputs from its environment and generating thoughts autonomously.
+![image](https://github.com/user-attachments/assets/d7603ad8-3bbb-4003-9552-86a258d9ce8f)
 
 ## Introduction
 
