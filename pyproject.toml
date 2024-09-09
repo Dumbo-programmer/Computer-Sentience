@@ -1,10 +1,11 @@
 [tool.poetry]
-name = "computer sentience"
+name = "computer-sentience"
 version = "0.1.0"
 description = ""
 authors = ["Dumbo-programmer <rony.120285d2k@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12.6"
